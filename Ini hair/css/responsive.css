@@ -1,0 +1,37 @@
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  .back{margin-top: 1em;
+      margin-left: 30px; 
+  }
+   .front{margin-top: 1em;
+     margin-left: 30px;
+  }
+   main{margin-left: 0;}
+  
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+/*@media only screen and (device-width: 768px) {
+  /* For general iPad layouts 
+  .body{
+    background-color: gold;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  } 
+  main{margin-left: 0; background-color: gold;}
+  .box{position: relative; height: 250px;}
+}
